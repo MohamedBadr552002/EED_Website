@@ -185,3 +185,64 @@ section div a:hover{
     
 }
 
+@media (max-width : 1023px)
+{
+    header
+    {
+        padding: 12px 20px;
+    }
+
+    .navagation a{
+        padding-left: 10px;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .main h1 {
+        font-size: 1em;
+    }
+    
+    .main h5{
+        font-size: 1.6em;
+    }
+
+    .contant
+    {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+}
+
+
+@media (max-width : 641px)
+{
+    body{
+        font-size: 12px;
+    }
+
+    .main h1 {
+        font-size: 0.8em;
+    }
+
+    .main h5{
+        font-size: 1.6em;
+    }
+
+}
+
+@media (max-width : 300px)
+{
+    body{
+        font-size: 10px;
+    }
+
+ 
+}
